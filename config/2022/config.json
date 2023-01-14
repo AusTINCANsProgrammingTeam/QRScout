@@ -9,7 +9,7 @@
         {
           "code": "scouter",
           "title": "Scouter Initials",
-          "preserveDataOnReset?": true,
+          "preserveDataOnReset": true,
           "type": "text",
           "required": true,
           "defaultValue": ""
@@ -17,7 +17,7 @@
         {
           "code": "robot",
           "title": "Robot",
-          "preserveDataOnReset?": true,
+          "preserveDataOnReset": true,
           "type": "select",
           "required": true,
           "choices": {
@@ -33,7 +33,7 @@
         {
           "code": "matchNumber",
           "title": "Match Number",
-          "preserveDataOnReset?": false,
+          "preserveDataOnReset": false,
           "type": "number",
           "defaultValue": "",
           "required": true
@@ -41,7 +41,7 @@
         {
           "code": "teamNumber",
           "title": "Team Number",
-          "preserveDataOnReset?": false,
+          "preserveDataOnReset": false,
           "type": "number",
           "defaultValue": "",
           "required": true
