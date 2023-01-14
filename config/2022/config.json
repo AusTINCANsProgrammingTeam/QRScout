@@ -11,12 +11,14 @@
           "title": "Scouter Initials",
           "preserveDataOnReset": true,
           "type": "text",
+          "defaultValue": "",
           "required": true
         },
         {
           "code": "matchNumber",
           "title": "Match Number",
           "type": "number",
+          "defaultValue": "",
           "required": true
         },
         {
@@ -39,6 +41,7 @@
           "code": "teamNumber",
           "title": "Team Number",
           "type": "number",
+          "defaultValue": "",
           "required": true
         },
         {
