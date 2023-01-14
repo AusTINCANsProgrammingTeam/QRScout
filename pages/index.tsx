@@ -69,7 +69,7 @@ export default function Home() {
   function resetSections() {
     const currentData = { ...formData }
 
-    currentData.sections.fields
+    currentData.sections
       .filter((f) => !f.preserveDataOnReset)
       .forEach((f) => {
         console.log(`resetting ${f.title} from ${f.value} to ${f.defaultValue}`)
