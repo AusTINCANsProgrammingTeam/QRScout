@@ -11,13 +11,13 @@ export interface Config {
 
 export interface SectionProps {
   name: string
-  preserveDataOnReset?: boolean
   fields: InputProps[]
 }
 
 export interface InputProps {
   title: string
   type: InputTypes
+  preserveDataOnReset?: boolean
   required: boolean
   // A shorthand code for this input
   code: string

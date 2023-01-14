@@ -5,17 +5,18 @@
   "sections": [
     {
       "name": "Prematch",
-      "preserveDataOnReset": true,
       "fields": [
         {
           "code": "scouter",
           "title": "Scouter Initials",
+          "preserveDataOnReset": true,
           "type": "text",
           "required": true
         },
         {
           "code": "matchNumber",
           "title": "Match Number",
+          "preserveDataOnReset": true,
           "type": "number",
           "required": true
         },

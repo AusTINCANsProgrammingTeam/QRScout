@@ -81,6 +81,19 @@ export default function Home() {
     setFormData(currentData)
   }
 
+  function resetFields() {
+    const currentData = { ...formData }
+
+    currentData.fields
+      .filter((f) => !f.preserveDataOnReset)
+      .for((f) => {
+        console.log(`resetting ${f.title} from ${f.value} to ${f.defaultValue}`)
+        f.value = f.defaultValue
+      })
+
+    setFormData(currentData)
+  }
+
   function getQRCodeData(): string {
     return formData.sections
       .map((s) => s.fields)
