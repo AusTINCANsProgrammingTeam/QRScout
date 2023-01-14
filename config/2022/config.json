@@ -19,7 +19,6 @@
           "title": "Match Number",
           "type": "number",
           "min": 0,
-          "defaultValue": -1,
           "required": true
         },
         {
@@ -43,7 +42,6 @@
           "title": "Team Number",
           "type": "number",
           "min": 0,
-          "defaultValue": -1,
           "required": true
         },
         {
