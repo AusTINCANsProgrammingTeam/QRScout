@@ -100,9 +100,9 @@
           "title": "Docked/Engaged",
           "type": "select",
           "choices": {
-            "1": "None",
-            "2": "Docked",
-            "3": "Engaged"
+            "none": "None",
+            "docked": "Docked",
+            "engaged": "Engaged"
           },
           "defaultValue": false,
           "required": false
@@ -117,10 +117,10 @@
           "title": "Pick up Cargo where",
           "type": "select",
           "choices": {
-            "x": "None",
-            "t": "Substations",
-            "g": "Ground",
-            "b": "Both"            
+            "none": "None",
+            "sub": "Substations",
+            "ground": "Ground",
+            "both": "Both"            
           },
           "defaultValue": "x",
           "required": false
@@ -173,10 +173,10 @@
           "title": "EndGame Position",
           "type": "select",
           "choices": {
-            "1": "None",
-            "2": "Parked",
-            "3": "Docked",
-            "4": "Engaged"
+            "none": "None",
+            "park": "Parked",
+            "docked": "Docked",
+            "engaged": "Engaged"
           },
           "defaultValue": "None",
           "required": false
@@ -212,9 +212,9 @@
           "title": "Driver Skill",
           "type": "select",
           "choices": {
-            "2": "Poor",
-            "1": "Average",
-            "3": "Good"
+            "poor": "Poor",
+            "avg": "Average",
+            "good": "Good"
           },
           "defaultValue": false,
           "required": false
@@ -224,9 +224,9 @@
           "title": "Defense Skill",
           "type": "select",
           "choices": {
-            "2": "Poor",
-            "1": "Average",
-            "3": "Good"
+            "poor": "Poor",
+            "avg": "Average",
+            "good": "Good"
           },
           "defaultValue": false,
           "required": false
