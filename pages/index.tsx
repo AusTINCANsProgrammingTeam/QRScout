@@ -131,7 +131,7 @@ export default function Home() {
     <div className="min-h-screen py-2">
       <Head>
         <title>{formData.title}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/Untitled_32.ico" />
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-4 text-center">
