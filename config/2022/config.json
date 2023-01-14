@@ -18,8 +18,6 @@
           "code": "matchNumber",
           "title": "Match Number",
           "type": "number",
-          "min": 0,
-          "defaultValue": " ",
           "required": true
         },
         {
@@ -42,8 +40,6 @@
           "code": "teamNumber",
           "title": "Team Number",
           "type": "number",
-          "min": 0,
-          "defaultValue": " ",
           "required": true
         },
         {
