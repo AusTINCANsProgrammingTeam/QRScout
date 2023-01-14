@@ -5,6 +5,7 @@
   "sections": [
     {
       "name": "Prematch",
+      "preserveDataOnReset": true,
       "fields": [
         {
           "code": "scouter",

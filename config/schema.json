@@ -23,6 +23,10 @@
     },
     "Section": {
       "type": "object",
+      "preserveDataOnReset": {
+        "type": "boolean",
+        "description": "If true, field data will not be cleared when the scouting form is reset."
+      },
       "properties": {
         "name": {
           "type": "string"
