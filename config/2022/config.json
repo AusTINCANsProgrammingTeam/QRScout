@@ -53,25 +53,6 @@
       "name": "Autonomous",
       "fields": [
         {
-          "code": "Engaged",
-          "title": "Docked/Engaged",
-          "type": "select",
-          "choices": {
-            "1": "None",
-            "2": "Docked",
-            "3": "Engaged"
-          },
-          "defaultValue": false,
-          "required": false
-        },
-        {
-          "code": "mb",
-          "title": "Mobility Bounus",
-          "type": "boolean",
-          "defaultValue": false,
-          "required": false
-        },
-        {
           "code": "ahp",
           "title": "High Pieces Scored",
           "type": "counter",
@@ -96,11 +77,30 @@
           "required": false
         },
         {
+          "code": "mb",
+          "title": "Mobility Bonus",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
+        },
+        {
           "code": "apu",
           "title": "Picked Up Piece",
           "type": "boolean",
           "defaultValue": 0,
           "min": 0,
+          "required": false
+        },
+        {
+          "code": "Engaged",
+          "title": "Docked/Engaged",
+          "type": "select",
+          "choices": {
+            "1": "None",
+            "2": "Docked",
+            "3": "Engaged"
+          },
+          "defaultValue": false,
           "required": false
         }
       ]
@@ -108,6 +108,33 @@
     {
       "name": "Teleop",
       "fields": [
+        {
+          "code": "cw",
+          "title": "Pick up Cargo where",
+          "type": "select",
+          "choices": {
+            "x": "None",
+            "t": "Substations",
+            "g": "Ground",
+            "b": "Both"            
+          },
+          "defaultValue": "x",
+          "required": false
+        },
+        {
+          "code": "cube",
+          "title": "Scored Cubes on Mid/High",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
+        },
+        {
+          "code": "cone",
+          "title": "Scored Cones on Mid/High",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
+        },
         {
           "code": "thp",
           "title": "High Pieces Scored",
@@ -130,33 +157,6 @@
           "type": "counter",
           "defaultValue": 0,
           "min": 0,
-          "required": false
-        },
-        {
-          "code": "cw",
-          "title": "Pick up Cargo where",
-          "type": "select",
-          "choices": {
-            "x": "None",
-            "t": "Substations",
-            "g": "Ground",
-            "b": "Both"            
-          },
-          "defaultValue": "x",
-          "required": false
-        },
-        {
-          "code": "cube",
-          "title": "Can Score Cubes",
-          "type": "boolean",
-          "defaultValue": false,
-          "required": false
-        },
-        {
-          "code": "cone",
-          "title": "Can Score Cones",
-          "type": "boolean",
-          "defaultValue": false,
           "required": false
         }
       ]
@@ -210,8 +210,7 @@
           "choices": {
             "2": "Poor",
             "1": "Average",
-            "3": "Good",
-            "4": "Exellent"
+            "3": "Good"
           },
           "defaultValue": false,
           "required": false
@@ -223,8 +222,7 @@
           "choices": {
             "2": "Poor",
             "1": "Average",
-            "3": "Good",
-            "4": "Exellent"
+            "3": "Good"
           },
           "defaultValue": false,
           "required": false
