@@ -32,7 +32,7 @@
         },
         {
           "code": "matchNumber",
-          "title": "atch Number",
+          "title": "Match Number",
           "preserveDataOnReset": false,
           "type": "number",
           "defaultValue": "",
