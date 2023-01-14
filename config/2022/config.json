@@ -33,12 +33,14 @@
         {
           "code": "matchNumber",
           "title": "Match Number",
+          "preserveDataOnReset": false,
           "type": "number",
           "required": true
         },
         {
           "code": "teamNumber",
           "title": "Team Number",
+          "preserveDataOnReset": false,
           "type": "number",
           "required": true
         },
