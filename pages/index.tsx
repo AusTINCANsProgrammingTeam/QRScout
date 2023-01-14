@@ -69,24 +69,9 @@ export default function Home() {
   function resetSections() {
     const currentData = { ...formData }
 
-    currentData.sections
-      .filter((s) => !s.preserveDataOnReset)
-      .map((s) => s.fields)
-      .flat()
-      .forEach((f) => {
-        console.log(`resetting ${f.title} from ${f.value} to ${f.defaultValue}`)
-        f.value = f.defaultValue
-      })
-
-    setFormData(currentData)
-  }
-
-  function resetFields() {
-    const currentData = { ...formData }
-
-    currentData.fields
+    currentData.sections.fields
       .filter((f) => !f.preserveDataOnReset)
-      .for((f) => {
+      .forEach((f) => {
         console.log(`resetting ${f.title} from ${f.value} to ${f.defaultValue}`)
         f.value = f.defaultValue
       })

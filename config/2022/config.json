@@ -16,13 +16,13 @@
         {
           "code": "matchNumber",
           "title": "Match Number",
-          "preserveDataOnReset": true,
           "type": "number",
           "required": true
         },
         {
           "code": "robot",
           "title": "Robot",
+          "preserveDataOnReset": true,
           "type": "select",
           "required": true,
           "choices": {
