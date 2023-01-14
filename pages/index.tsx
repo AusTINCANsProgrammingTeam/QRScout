@@ -70,8 +70,8 @@ export default function Home() {
     const currentData = { ...formData }
 
     currentData.sections
-      .filter((s) => !s.preserveDataOnReset)
       .map((s) => s.fields)
+      .flat()
       .filter((f) => !f.preserveDataOnReset)
       .forEach((f) => {          
         console.log(`resetting ${f.title} from ${f.value} to ${f.defaultValue}`)
