@@ -35,7 +35,7 @@
           "title": "Match Number",
           "preserveDataOnReset": false,
           "type": "number",
-          "defaultValue": "",
+          "defaultValue": "   ",
           "required": true
         },
         {
@@ -214,8 +214,8 @@
           "title": "Driver Skill",
           "type": "select",
           "choices": {
-            "bad": "Bad",
             "avg": "Average",
+            "bad": "Bad",
             "good": "Good"
           },
           "defaultValue": false,
@@ -226,8 +226,8 @@
           "title": "Defense Skill",
           "type": "select",
           "choices": {
-            "bad": "Bad",
             "avg": "Average",
+            "bad": "Bad",
             "good": "Good"
           },
           "defaultValue": false,
