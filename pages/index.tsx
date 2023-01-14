@@ -72,7 +72,7 @@ export default function Home() {
     currentData.sections
       .map((s) => s.fields)
       .flat()
-      .filter((f) => f.preserveDataOnReset)
+      .filter((f) => !f.preserveDataOnReset)
       .forEach((f) => {          
         console.log(`resetting ${f.title} from ${f.value} to ${f.defaultValue}`)
         f.value = f.defaultValue
