@@ -160,7 +160,7 @@ export default function Home() {
 
             <div className="mb-4 flex flex-col justify-center rounded bg-white shadow-md">
               <button
-                className="focus:shadow-outline mx-2 rounded bg-gray-700 py-6 px-6 font-bold uppercase text-white hover:bg-gray-700 focus:shadow-lg focus:outline-none disabled:bg-gray-300"
+                className="focus:shadow-outline mx-2 rounded bg-gray-700 py-6 px-6 font-bold uppercase text-white hover:bg-yellow-600 focus:shadow-lg focus:outline-none disabled:bg-gray-300"
                 type="button"
                 onClick={() => setShowQR(true)}
                 disabled={getMissingRequiredFields().length > 0}
