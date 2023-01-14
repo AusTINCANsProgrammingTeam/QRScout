@@ -31,10 +31,6 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/InputProps"
-          },
-          "preserveDataOnReset": {
-            "type": "boolean",
-            "description": "If true, field data will not be cleared when the scouting form is reset."
           }
         }
       },
@@ -43,6 +39,10 @@
     },
     "InputProps": {
       "type": "object",
+      "preserveDataOnReset": {
+        "type": "boolean",
+        "description": "If true, field data will not be cleared when the scouting form is reset."
+      },
       "properties": {
         "title": {
           "type": "string"
