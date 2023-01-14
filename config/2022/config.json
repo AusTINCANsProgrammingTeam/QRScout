@@ -9,6 +9,7 @@
         {
           "code": "scouter",
           "title": "Scouter Initials",
+          "preserveDataOnReset": true,
           "type": "text",
           "required": true,
           "defaultValue": ""
@@ -16,14 +17,14 @@
         {
           "code": "matchNumber",
           "title": "Match Number",
-          "preserveDataOnReset": true,
           "type": "number",
-          "required": true,
-          "defaultValue": ""
+          "defaultValue": null,
+          "required": true
         },
         {
           "code": "robot",
           "title": "Robot",
+          "preserveDataOnReset": true,
           "type": "select",
           "required": true,
           "choices": {
@@ -39,15 +40,13 @@
         {
           "code": "teamNumber",
           "title": "Team Number",
-          "preserveDataOnReset": true,
           "type": "number",
-          "required": true,
-          "defaultValue": ""
+          "defaultValue": null,
+          "required": true
         },
         {
           "code": "noShow",
           "title": "No Show",
-          "preserveDataOnReset": true,
           "type": "boolean",
           "defaultValue": false,
           "required": false
@@ -213,7 +212,7 @@
           "title": "Driver Skill",
           "type": "select",
           "choices": {
-            "poor": "Poor",
+            "bad": "Bad",
             "avg": "Average",
             "good": "Good"
           },
@@ -225,7 +224,7 @@
           "title": "Defense Skill",
           "type": "select",
           "choices": {
-            "poor": "Poor",
+            "bad": "Bad",
             "avg": "Average",
             "good": "Good"
           },
