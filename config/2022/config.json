@@ -15,12 +15,6 @@
           "defaultValue": ""
         },
         {
-          "code": "matchNumber",
-          "title": "Match Number",
-          "type": "number",
-          "required": true
-        },
-        {
           "code": "robot",
           "title": "Robot",
           "preserveDataOnReset": true,
@@ -35,6 +29,12 @@
             "b3": "Blue 3"
           },
           "defaultValue": "r1"
+        },
+        {
+          "code": "matchNumber",
+          "title": "Match Number",
+          "type": "number",
+          "required": true
         },
         {
           "code": "teamNumber",
