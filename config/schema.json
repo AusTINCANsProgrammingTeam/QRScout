@@ -23,18 +23,22 @@
     },
     "Section": {
       "type": "object",
+      "preserveDataOnReset": {
+        "type": "boolean",
+        "description": "If true, field data will not be cleared when the scouting form is reset."
+      },
       "properties": {
         "name": {
           "type": "string"
-        },
-        "preserveDataOnReset": {
-          "type": "boolean",
-          "description": "If true, field data will not be cleared when the scouting form is reset."
         },
         "fields": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/InputProps"
+          },
+          "preserveDataOnReset": {
+            "type": "boolean",
+            "description": "If true, field data will not be cleared when the scouting form is reset."
           }
         }
       },

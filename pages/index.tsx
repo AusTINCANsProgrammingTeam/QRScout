@@ -73,7 +73,8 @@ export default function Home() {
       .filter((s) => !s.preserveDataOnReset)
       .map((s) => s.fields)
       .flat()
-      .forEach((f) => {
+      .filter((f) => !f.preserveDataOnReset)
+      .forEach((f) => {          
         console.log(`resetting ${f.title} from ${f.value} to ${f.defaultValue}`)
         f.value = f.defaultValue
       })

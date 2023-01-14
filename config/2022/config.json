@@ -10,6 +10,7 @@
         {
           "code": "scouter",
           "title": "Scouter Initials",
+          "preserveDataOnReset": true,
           "type": "text",
           "required": true
         },
@@ -22,6 +23,7 @@
         {
           "code": "robot",
           "title": "Robot",
+          "preserveDataOnReset": true,
           "type": "select",
           "required": true,
           "choices": {
