@@ -35,7 +35,6 @@
           "title": "Match Number",
           "preserveDataOnReset": false,
           "type": "number",
-          "defaultValue": "",
           "required": true
         },
         {
@@ -43,7 +42,6 @@
           "title": "Team Number",
           "preserveDataOnReset": false,
           "type": "number",
-          "defaultValue": "",
           "required": true
         },
         {
@@ -232,6 +230,11 @@
           },
           "defaultValue": false,
           "required": false
+        },
+        {
+          "code": "test",
+          "title": "Test",
+          "type": "number"
         }
       ]
     }
