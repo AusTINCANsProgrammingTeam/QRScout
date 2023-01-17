@@ -19,7 +19,7 @@ export default function NumberInput(data: NumberInputProps) {
       type="number"
       min={data.min}
       max={data.max}
-      defaultValue={""}
+      defaultValue={null}
       id={data.title}
       onChange={handleChange}
     />
