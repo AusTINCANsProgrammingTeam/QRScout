@@ -35,7 +35,7 @@
           "title": "Match Number",
           "preserveDataOnReset": false,
           "type": "number",
-          //"defaultValue": null,
+          "defaultValue": "",
           "required": true
         },
         {
@@ -43,7 +43,7 @@
           "title": "Team Number",
           "preserveDataOnReset": false,
           "type": "number",
-          //"defaultValue": null,
+          "defaultValue": "",
           "required": true
         },
         {
