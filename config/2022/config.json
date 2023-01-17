@@ -230,11 +230,6 @@
           },
           "defaultValue": false,
           "required": false
-        },
-        {
-          "code": "test",
-          "title": "Test",
-          "type": "number"
         }
       ]
     }

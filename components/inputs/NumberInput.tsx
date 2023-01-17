@@ -7,11 +7,7 @@ export interface NumberInputProps extends BaseInputProps {
   defaultValue?: string
 }
 
-export default function NumberInput(data: NumberInputProps) {
-  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
-    data.onChange(e.target.value)
-    
-  }
+
 
   return (
     <input
