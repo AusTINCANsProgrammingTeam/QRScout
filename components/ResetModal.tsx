@@ -5,7 +5,7 @@ export interface ResetModalProps {
   show: boolean
   title: string
   data: string
-  onDismiss: () => voidr
+  onDismiss: () => void
   resetSections: () => void
 }
 
