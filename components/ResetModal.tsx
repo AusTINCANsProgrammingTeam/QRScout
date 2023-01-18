@@ -9,7 +9,7 @@ export interface ResetModalProps {
   resetSections: () => void
 }
 
-export default function ResetModal(props: QRModalProps) {
+export default function ResetModal(props: ResetModalProps) {
   return (
     <>
       {props.show && (
