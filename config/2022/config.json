@@ -12,6 +12,7 @@
           "preserveDataOnReset": true,
           "type": "text",
           "required": true,
+          "maxSize": 3,
           "defaultValue": ""
         },
         {
