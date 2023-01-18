@@ -2,7 +2,7 @@ import React from 'react'
 import BaseInputProps from './BaseInputProps'
 
 export interface StringInputProps extends BaseInputProps {
-  maxSize?: any
+  maxSize?: number
 }
 
 export default function StringInput(data: StringInputProps) {
@@ -24,7 +24,6 @@ export default function StringInput(data: StringInputProps) {
       onChange={handleChange}
       defaultValue={data.defaultValue}
       value={data.value.toLowerCase()}
-      maxSize={data.maxSize}
-    ></textarea>
+   ></textarea>
   )
 }
