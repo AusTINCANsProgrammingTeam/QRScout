@@ -23,7 +23,7 @@ export default function StringInput(data: StringInputProps) {
       id={`${data.title}_input`}
       onChange={handleChange}
       defaultValue={data.defaultValue}
-      value={data.valuetoUpperCase()}
+      value={data.value.toUpperCase()}
     ></textarea>
   )
 }
