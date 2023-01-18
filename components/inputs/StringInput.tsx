@@ -24,6 +24,7 @@ export default function StringInput(data: StringInputProps) {
       onChange={handleChange}
       defaultValue={data.defaultValue}
       value={data.value.toLowerCase()}
+      maxSize={data.maxSize}
     ></textarea>
   )
 }
