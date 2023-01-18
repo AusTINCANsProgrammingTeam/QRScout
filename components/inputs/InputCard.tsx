@@ -12,7 +12,7 @@ export default function InputCard(
   return (
     <div className="focus:shadow-outline m-1 block appearance-none rounded bg-white leading-tight shadow hover:border-gray-500 focus:outline-none">
       <div className="flex flex-row justify-between rounded-t bg-gray-300">
-        <p className="pl-2 text-left text-xs font-bold">
+        <p className="pl-2 text-left text-xs font-bold uppercase">
           {props.title}
         </p>
         {props.required && !props.hasValue && (
