@@ -9,6 +9,7 @@ import {
 import QRModal from '../components/QRModal'
 import Section from '../components/Section'
 import Button, { Variant } from '../components/core/Button'
+import ResetModal from '../components/ResetModal'
 
 function buildConfig(c: Config) {
   let config: Config = { ...c }
@@ -26,6 +27,7 @@ function getDefaultConfig(): Config {
 export default function Home() {
   const [formData, setFormData] = useState<Config>(getDefaultConfig)
   const [showQR, setShowQR] = useState(false)
+  const [showReset, setShowReset] = useState(false)
 
   useEffect(() => {
     let userConfig = localStorage.getItem('QRScoutUserConfig')
@@ -144,6 +146,11 @@ export default function Home() {
           data={getQRCodeData()}
           onDismiss={() => setShowQR(false)}
         />
+        <ResetModal
+          show={showReset}
+          title={`Are you sure?`}
+          onDismiss={() => setShowReset(false)}
+        />
 
         <form>
           <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
@@ -170,7 +177,7 @@ export default function Home() {
               <button
                 className="focus:shadow-outline mx-2 my-6 rounded border border-gray-700 bg-white py-2 font-bold text-gray-700 hover:bg-yellow-400 hover:text-white focus:outline-none"
                 type="button"
-                onClick={() => resetSections()}
+                onClick={() => setShowReset(true)}                
               >
                 Reset
               </button>
