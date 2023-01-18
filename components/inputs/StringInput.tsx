@@ -2,7 +2,7 @@ import React from 'react'
 import BaseInputProps from './BaseInputProps'
 
 export interface StringInputProps extends BaseInputProps {
-  maxSize?: number
+  maxSize?: any
 }
 
 export default function StringInput(data: StringInputProps) {
