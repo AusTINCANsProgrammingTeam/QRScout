@@ -20,7 +20,6 @@ export default function ResetModal(props: ResetModalProps) {
           <div className="fixed top-20 rounded-md border bg-white p-5 shadow-lg">
             <div className="flex flex-col items-center">
               <h1 className="text-4xl">{props.title.toUpperCase()}</h1>
-              <QRCode className="m-2 mt-4" size={256} value={props.data} />
               <div className="mt-4 flex w-full flex-row items-center justify-between">
                 <div
                   onClick={() =>
