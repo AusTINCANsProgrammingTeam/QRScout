@@ -149,6 +149,7 @@ export default function Home() {
         <ResetModal
           show={showReset}
           title={`Are you sure?`}
+          data={resetSections}
           onDismiss={() => setShowReset(false)}
         />
 

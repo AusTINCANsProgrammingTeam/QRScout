@@ -1,12 +1,11 @@
 import React from 'react'
-import QRCode from 'qrcode.react'
 
 export interface ResetModalProps {
   show: boolean
   title: string
   data: string
   onDismiss: () => void
-  resetSections: () => void
+  resetSection: boolean
 }
 
 export default function ResetModal(props: ResetModalProps) {
@@ -47,14 +46,18 @@ export default function ResetModal(props: ResetModalProps) {
                 <button
                   className="focus:shadow-outline rounded bg-yellow-400 py-2 px-4 font-bold text-white hover:bg-yellow-300 focus:outline-none"
                   type="button"
-                  onClick={props.onDismiss}
+                  onClick={
+                    props.resetSection(false),
+                    props.onDismiss}
                 >
                   NO
                 </button>
                 <button
                   className="focus:shadow-outline rounded bg-yellow-400 py-2 px-4 font-bold text-white hover:bg-yellow-300 focus:outline-none"
                   type="button"
-                  onClick={props.resetSections()}
+                  onClick={
+                    props.resetSections(true),
+                    props.onDismiss}
                 >
                   YES
                 </button>
