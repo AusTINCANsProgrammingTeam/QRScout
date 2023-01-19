@@ -91,8 +91,7 @@
           "code": "apu",
           "title": "Picked Up Piece",
           "type": "boolean",
-          "defaultValue": 0,
-          "min": 0,
+          "defaultValue": false,
           "required": false
         },
         {
@@ -104,7 +103,7 @@
             "docked": "Docked",
             "engaged": "Engaged"
           },
-          "defaultValue": false,
+          "defaultValue": "None",
           "required": false
         }
       ]
@@ -122,7 +121,7 @@
             "ground": "Ground",
             "both": "Both"            
           },
-          "defaultValue": "x",
+          "defaultValue": "None",
           "required": false
         },
         {
@@ -216,7 +215,7 @@
             "bad": "Bad",
             "good": "Good"
           },
-          "defaultValue": false,
+          "defaultValue": "Average",
           "required": false
         },
         {
@@ -228,7 +227,7 @@
             "bad": "Bad",
             "good": "Good"
           },
-          "defaultValue": false,
+          "defaultValue": "Average",
           "required": false
         }
       ]
