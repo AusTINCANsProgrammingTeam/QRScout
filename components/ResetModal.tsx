@@ -5,7 +5,6 @@ export interface ResetModalProps {
   title: string
   data: string
   onDismiss: () => void
-  resetSection: boolean
 }
 
 export default function ResetModal(props: ResetModalProps) {
@@ -46,7 +45,6 @@ export default function ResetModal(props: ResetModalProps) {
                   className="focus:shadow-outline rounded bg-yellow-400 py-2 px-4 font-bold text-white hover:bg-yellow-300 focus:outline-none"
                   type="button"
                   onClick={
-                    props.resetSection(false),
                     props.onDismiss}
                 >
                   NO
@@ -55,7 +53,7 @@ export default function ResetModal(props: ResetModalProps) {
                   className="focus:shadow-outline rounded bg-yellow-400 py-2 px-4 font-bold text-white hover:bg-yellow-300 focus:outline-none"
                   type="button"
                   onClick={
-                    props.resetSections(true),
+                    props.resetSections(),
                     props.onDismiss}
                 >
                   YES
