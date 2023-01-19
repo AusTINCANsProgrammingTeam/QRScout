@@ -4,7 +4,7 @@ import BaseInputProps from './BaseInputProps'
 export interface NumberInputProps extends BaseInputProps {
   min?: number
   max?: number
-  defaultValue?: number
+  defaultValue?: string
 }
 
 export default function NumberInput(data: NumberInputProps) {

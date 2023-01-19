@@ -70,10 +70,10 @@ export default function Home() {
     const currentData = { ...formData }
 
     currentData.sections
-      .filter((s) => !s.preserveDataOnReset)
       .map((s) => s.fields)
       .flat()
-      .forEach((f) => {
+      .filter((f) => !f.preserveDataOnReset)
+      .forEach((f) => {          
         console.log(`resetting ${f.title} from ${f.value} to ${f.defaultValue}`)
         f.value = f.defaultValue
       })
@@ -131,7 +131,7 @@ export default function Home() {
     <div className="min-h-screen py-2">
       <Head>
         <title>{formData.title}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/Untitled_32.ico" />
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-4 text-center">
@@ -160,7 +160,7 @@ export default function Home() {
 
             <div className="mb-4 flex flex-col justify-center rounded bg-white shadow-md">
               <button
-                className="focus:shadow-outline mx-2 rounded bg-gray-700 py-6 px-6 font-bold uppercase text-white hover:bg-gray-700 focus:shadow-lg focus:outline-none disabled:bg-gray-300"
+                className="focus:shadow-outline mx-2 rounded bg-gray-700 py-6 px-6 font-bold uppercase text-white hover:bg-yellow-400 focus:shadow-lg focus:outline-none disabled:bg-gray-300"
                 type="button"
                 onClick={() => setShowQR(true)}
                 disabled={getMissingRequiredFields().length > 0}
