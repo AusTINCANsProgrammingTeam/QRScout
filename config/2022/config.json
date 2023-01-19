@@ -215,7 +215,7 @@
             "bad": "Bad",
             "good": "Good"
           },
-          "defaultValue": "average",
+          "defaultValue": "avg",
           "required": false
         },
         {
@@ -227,7 +227,7 @@
             "bad": "Bad",
             "good": "Good"
           },
-          "defaultValue": "average",
+          "defaultValue": "avg",
           "required": false
         }
       ]
