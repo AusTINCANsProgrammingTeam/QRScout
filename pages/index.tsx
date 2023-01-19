@@ -9,7 +9,6 @@ import {
 import QRModal from '../components/QRModal'
 import Section from '../components/Section'
 import Button, { Variant } from '../components/core/Button'
-import ResetModal from '../components/ResetModal'
 
 function buildConfig(c: Config) {
   let config: Config = { ...c }
