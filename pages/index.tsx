@@ -26,7 +26,6 @@ function getDefaultConfig(): Config {
 export default function Home() {
   const [formData, setFormData] = useState<Config>(getDefaultConfig)
   const [showQR, setShowQR] = useState(false)
-  const [showReset, setShowReset] = useState(false)
 
   useEffect(() => {
     let userConfig = localStorage.getItem('QRScoutUserConfig')
@@ -146,11 +145,6 @@ export default function Home() {
           title={`${getFieldValue('robot')} - ${getFieldValue('matchNumber')}`}
           data={getQRCodeData()}
           onDismiss={() => setShowQR(false)}
-        />
-        <ResetModal
-          show={showReset}
-          title={`Are you sure?`}
-          onDismiss={() => setShowReset(false)}
         />
 
         <form>
