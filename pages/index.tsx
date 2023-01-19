@@ -71,7 +71,8 @@ export default function Home() {
   function resetSections() {
     const currentData = { ...formData }
 
-    currentData.sections
+    if (confirm("Are you sure?") == true) {
+      currentData.sections
       .map((s) => s.fields)
       .flat()
       .filter((f) => !f.preserveDataOnReset)
@@ -79,6 +80,7 @@ export default function Home() {
         console.log(`resetting ${f.title} from ${f.value} to ${f.defaultValue}`)
         f.value = f.defaultValue
       })
+    }
 
     setFormData(currentData)
   }
@@ -177,7 +179,7 @@ export default function Home() {
               <button
                 className="focus:shadow-outline mx-2 my-6 rounded border border-gray-700 bg-white py-2 font-bold text-gray-700 hover:bg-yellow-400 hover:text-white focus:outline-none"
                 type="button"
-                onClick={() => setShowReset(true)}                
+                onClick={() => resetSections()}                
               >
                 Reset
               </button>
