@@ -53,8 +53,7 @@ export default function ResetModal(props: ResetModalProps) {
                   className="focus:shadow-outline rounded bg-yellow-400 py-2 px-4 font-bold text-white hover:bg-yellow-300 focus:outline-none"
                   type="button"
                   onClick={
-                    props.resetSections(),
-                    props.onDismiss}
+                    props.resetSections()}
                 >
                   YES
                 </button>
