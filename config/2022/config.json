@@ -103,7 +103,7 @@
             "docked": "Docked",
             "engaged": "Engaged"
           },
-          "defaultValue": "None",
+          "defaultValue": "none",
           "required": false
         }
       ]
@@ -121,7 +121,7 @@
             "ground": "Ground",
             "both": "Both"            
           },
-          "defaultValue": "None",
+          "defaultValue": "none",
           "required": false
         },
         {
@@ -177,7 +177,7 @@
             "docked": "Docked",
             "engaged": "Engaged"
           },
-          "defaultValue": "None",
+          "defaultValue": "none",
           "required": false
         },
         {
@@ -215,7 +215,7 @@
             "bad": "Bad",
             "good": "Good"
           },
-          "defaultValue": "Average",
+          "defaultValue": "average",
           "required": false
         },
         {
@@ -227,7 +227,7 @@
             "bad": "Bad",
             "good": "Good"
           },
-          "defaultValue": "Average",
+          "defaultValue": "average",
           "required": false
         }
       ]
