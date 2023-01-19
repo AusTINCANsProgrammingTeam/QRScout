@@ -74,7 +74,7 @@
         },
         {
           "code": "afp",
-          "title": "Floor Pieces Scored",
+          "title": "Low Pieces Scored",
           "type": "counter",
           "defaultValue": 0,
           "min": 0,
@@ -95,12 +95,12 @@
           "required": false
         },
         {
-          "code": "Engaged",
+          "code": "ade",
           "title": "Docked/Engaged",
           "type": "select",
           "choices": {
             "none": "None",
-            "docked": "Docked",
+            "docked": "Docked and Engaged",
             "engaged": "Engaged"
           },
           "defaultValue": "none",
@@ -156,7 +156,7 @@
         },
         {
           "code": "tfp",
-          "title": "Floor Pieces Scored",
+          "title": "Low Pieces Scored",
           "type": "counter",
           "defaultValue": 0,
           "min": 0,
@@ -174,7 +174,7 @@
           "choices": {
             "none": "None",
             "park": "Parked",
-            "docked": "Docked",
+            "docked": "Docked and Engaged",
             "engaged": "Engaged"
           },
           "defaultValue": "none",
