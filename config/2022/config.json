@@ -125,8 +125,8 @@
           "required": false
         },
         {
-          "code": "scpu",
-          "title": "Substation Cargo Pick Up",
+          "code": "spu",
+          "title": "Substation Pick Up Positions",
           "type": "select",
           "choices": {
             "none": "None",
@@ -188,7 +188,7 @@
         },
         {
           "code": "bb",
-          "title": "Buddy Balance",
+          "title": "Used Buddy Balance",
           "type": "boolean",
           "defaultValue": false,
           "required": false
@@ -210,30 +210,6 @@
           "title": "Died/Disabled",
           "type": "boolean",
           "defaultValue": false,
-          "required": false
-        },
-        {
-          "code": "drs",
-          "title": "Driver Skill",
-          "type": "select",
-          "choices": {
-            "avg": "Average",
-            "bad": "Bad",
-            "good": "Good"
-          },
-          "defaultValue": "avg",
-          "required": false
-        },
-        {
-          "code": "ds",
-          "title": "Defense Skill",
-          "type": "select",
-          "choices": {
-            "avg": "Average",
-            "bad": "Bad",
-            "good": "Good"
-          },
-          "defaultValue": "avg",
           "required": false
         },
         {
