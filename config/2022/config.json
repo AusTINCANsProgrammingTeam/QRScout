@@ -12,7 +12,6 @@
           "preserveDataOnReset": true,
           "type": "text",
           "required": true,
-          "max": 4,
           "defaultValue": ""
         },
         {
@@ -102,7 +101,7 @@
           "choices": {
             "none": "None",
             "docked": "Docked",
-            "engaged": "Docked and Engaged"
+            "engaged": "Docked and engaged"
           },
           "defaultValue": "none",
           "required": false
@@ -131,8 +130,8 @@
           "type": "select",
           "choices": {
             "none": "None",
-            "subP": "Substation Portal",
-            "subS": "Substation Slide",
+            "subP": "Substation portal",
+            "subS": "Substation slide",
             "both": "Both"            
           },
           "defaultValue": "none",
@@ -182,7 +181,7 @@
             "none": "None",
             "park": "Parked",
             "docked": "Docked",
-            "engaged": "Docked and Engaged"
+            "engaged": "Docked and engaged"
           },
           "defaultValue": "none",
           "required": false
