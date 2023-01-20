@@ -242,8 +242,8 @@
           "code": "notes",
           "title": "notes",
           "type": "text",
-          "defaultValue": false,
-          "required": ""
+          "defaultValue": "",
+          "required": false
         }
       ]
     }
