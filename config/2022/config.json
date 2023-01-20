@@ -43,13 +43,6 @@
           "preserveDataOnReset": false,
           "type": "number",
           "required": true
-        },
-        {
-          "code": "noShow",
-          "title": "No Show",
-          "type": "boolean",
-          "defaultValue": false,
-          "required": false
         }
       ]
     },
@@ -118,11 +111,19 @@
           "type": "select",
           "choices": {
             "none": "None",
-            "sub": "Substations",
+            "subOne": "Trapshoot Substation",
+            "subTwo": "Slide Substation",
             "ground": "Ground",
             "both": "Both"            
           },
           "defaultValue": "x",
+          "required": false
+        },
+        {
+          "code": "gc",
+          "title": "Can pickup from ground",
+          "type": "boolean",
+          "defaultValue": false,
           "required": false
         },
         {
@@ -201,6 +202,13 @@
       "name": "Postmatch",
       "fields": [
         {
+          "code": "noShow",
+          "title": "No Show",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
+        },
+        {
           "code": "d",
           "title": "Died",
           "type": "boolean",
@@ -228,6 +236,13 @@
             "bad": "Bad",
             "good": "Good"
           },
+          "defaultValue": false,
+          "required": false
+        },
+        {
+          "code": "notes",
+          "title": "notes",
+          "type": "text",
           "defaultValue": false,
           "required": false
         }
