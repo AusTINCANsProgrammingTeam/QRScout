@@ -138,10 +138,18 @@
           "required": false
         },
         {
-          "code": "gc",
-          "title": "Picked Up From Ground",
+          "code": "fpu",
+          "title": "Picked Up From Floor",
           "type": "boolean",
           "defaultValue": false,
+          "required": false
+        },
+        {
+          "code": "thp",
+          "title": "High Pieces Scored",
+          "type": "counter",
+          "defaultValue": 0,
+          "min": 0,
           "required": false
         },
         {
