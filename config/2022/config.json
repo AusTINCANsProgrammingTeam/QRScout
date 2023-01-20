@@ -212,8 +212,7 @@
           "choices": {
             "none": "None",
             "yel": "Yellow",
-            "red": "Red",
-            "both": "Both"
+            "red": "Red"
           },
           "defaultValue": "none",
           "required": false
