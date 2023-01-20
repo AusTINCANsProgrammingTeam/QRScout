@@ -100,8 +100,8 @@
           "type": "select",
           "choices": {
             "none": "None",
-            "docked": "Docked and Engaged",
-            "engaged": "Engaged"
+            "docked": "Docked",
+            "engaged": "Docked and Engaged"
           },
           "defaultValue": "none",
           "required": false
@@ -180,8 +180,8 @@
           "choices": {
             "none": "None",
             "park": "Parked",
-            "docked": "Docked and Engaged",
-            "engaged": "Engaged"
+            "docked": "Docked",
+            "engaged": "Docked and Engaged"
           },
           "defaultValue": "none",
           "required": false
