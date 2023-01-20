@@ -12,6 +12,7 @@
           "preserveDataOnReset": true,
           "type": "text",
           "required": true,
+          "max": 4,
           "defaultValue": ""
         },
         {
@@ -139,7 +140,7 @@
         },
         {
           "code": "fpu",
-          "title": "Picked Up From Floor",
+          "title": "Picked Up Pieces From Floor",
           "type": "boolean",
           "defaultValue": false,
           "required": false
@@ -188,7 +189,7 @@
         },
         {
           "code": "bb",
-          "title": "Used Buddy Balance",
+          "title": "Used Its Buddy Balance",
           "type": "boolean",
           "defaultValue": false,
           "required": false
