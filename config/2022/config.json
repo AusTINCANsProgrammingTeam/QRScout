@@ -243,7 +243,7 @@
           "title": "notes",
           "type": "text",
           "defaultValue": false,
-          "required": false
+          "required": ""
         }
       ]
     }
