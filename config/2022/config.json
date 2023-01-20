@@ -43,6 +43,13 @@
           "preserveDataOnReset": false,
           "type": "number",
           "required": true
+        },
+        {
+          "code": "noShow",
+          "title": "No Show",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
         }
       ]
     },
@@ -82,7 +89,7 @@
         },
         {
           "code": "apu",
-          "title": "Picked Up Piece",
+          "title": "Picked Up Extra Piece",
           "type": "boolean",
           "defaultValue": false,
           "required": false
@@ -105,14 +112,26 @@
       "name": "Teleop",
       "fields": [
         {
-          "code": "cw",
-          "title": "Pick up Cargo where",
+          "code": "scpu",
+          "title": "Pieces Scored on Mid/High",
           "type": "select",
           "choices": {
             "none": "None",
-            "subOne": "Trapshoot Substation",
-            "subTwo": "Slide Substation",
-            "ground": "Ground",
+            "cones": "Cones",
+            "cubes": "Cubes",
+            "both": "Both"            
+          },
+          "defaultValue": "None",
+          "required": false
+        },
+        {
+          "code": "scpu",
+          "title": "Substation Cargo Pick Up",
+          "type": "select",
+          "choices": {
+            "none": "None",
+            "subP": "Substation Portal",
+            "subS": "Substation Slide",
             "both": "Both"            
           },
           "defaultValue": "none",
@@ -120,31 +139,9 @@
         },
         {
           "code": "gc",
-          "title": "Can pickup from ground",
+          "title": "Picked Up From Ground",
           "type": "boolean",
           "defaultValue": false,
-          "required": false
-        },
-        {
-          "code": "cube",
-          "title": "Scored Cubes on Mid/High",
-          "type": "boolean",
-          "defaultValue": false,
-          "required": false
-        },
-        {
-          "code": "cone",
-          "title": "Scored Cones on Mid/High",
-          "type": "boolean",
-          "defaultValue": false,
-          "required": false
-        },
-        {
-          "code": "thp",
-          "title": "High Pieces Scored",
-          "type": "counter",
-          "defaultValue": 0,
-          "min": 0,
           "required": false
         },
         {
@@ -201,15 +198,8 @@
       "name": "Postmatch",
       "fields": [
         {
-          "code": "noShow",
-          "title": "No Show",
-          "type": "boolean",
-          "defaultValue": false,
-          "required": false
-        },
-        {
           "code": "d",
-          "title": "Died",
+          "title": "Died/Disabled",
           "type": "boolean",
           "defaultValue": false,
           "required": false
