@@ -67,7 +67,7 @@
         },
         {
           "code": "afp",
-          "title": "Floor Pieces Scored",
+          "title": "Low Pieces Scored",
           "type": "counter",
           "defaultValue": 0,
           "min": 0,
@@ -84,20 +84,19 @@
           "code": "apu",
           "title": "Picked Up Piece",
           "type": "boolean",
-          "defaultValue": 0,
-          "min": 0,
+          "defaultValue": false,
           "required": false
         },
         {
-          "code": "Engaged",
+          "code": "ade",
           "title": "Docked/Engaged",
           "type": "select",
           "choices": {
             "none": "None",
-            "docked": "Docked",
+            "docked": "Docked and Engaged",
             "engaged": "Engaged"
           },
-          "defaultValue": false,
+          "defaultValue": "none",
           "required": false
         }
       ]
@@ -116,7 +115,7 @@
             "ground": "Ground",
             "both": "Both"            
           },
-          "defaultValue": "x",
+          "defaultValue": "none",
           "required": false
         },
         {
@@ -158,7 +157,7 @@
         },
         {
           "code": "tfp",
-          "title": "Floor Pieces Scored",
+          "title": "Low Pieces Scored",
           "type": "counter",
           "defaultValue": 0,
           "min": 0,
@@ -176,10 +175,10 @@
           "choices": {
             "none": "None",
             "park": "Parked",
-            "docked": "Docked",
+            "docked": "Docked and Engaged",
             "engaged": "Engaged"
           },
-          "defaultValue": "None",
+          "defaultValue": "none",
           "required": false
         },
         {
@@ -224,7 +223,7 @@
             "bad": "Bad",
             "good": "Good"
           },
-          "defaultValue": false,
+          "defaultValue": "avg",
           "required": false
         },
         {
@@ -236,7 +235,7 @@
             "bad": "Bad",
             "good": "Good"
           },
-          "defaultValue": false,
+          "defaultValue": "avg",
           "required": false
         },
         {
