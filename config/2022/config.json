@@ -101,7 +101,7 @@
           "choices": {
             "none": "None",
             "docked": "Docked",
-            "engaged": "Docked and engaged"
+            "engaged": "Docked and Engaged"
           },
           "defaultValue": "none",
           "required": false
@@ -130,8 +130,8 @@
           "type": "select",
           "choices": {
             "none": "None",
-            "subP": "Substation portal",
-            "subS": "Substation slide",
+            "subP": "Substation Portal",
+            "subS": "Substation Slide",
             "both": "Both"            
           },
           "defaultValue": "none",
@@ -181,7 +181,7 @@
             "none": "None",
             "park": "Parked",
             "docked": "Docked",
-            "engaged": "Docked and engaged"
+            "engaged": "Docked and Engaged"
           },
           "defaultValue": "none",
           "required": false
@@ -205,6 +205,19 @@
     {
       "name": "Postmatch",
       "fields": [
+        {
+          "code": "pf",
+          "title": "Flagged",
+          "type": "select",
+          "choices": {
+            "none": "None",
+            "yel": "Yellow",
+            "red": "Red",
+            "both": "Both"
+          },
+          "defaultValue": "none",
+          "required": false
+        },
         {
           "code": "d",
           "title": "Died/Disabled",
