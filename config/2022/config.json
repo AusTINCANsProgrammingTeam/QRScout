@@ -175,7 +175,7 @@
       "fields": [
         {
           "code": "egp",
-          "title": "EndGame Position",
+          "title": "Endgame Position",
           "type": "select",
           "choices": {
             "none": "None",
