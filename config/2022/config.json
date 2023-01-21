@@ -226,7 +226,7 @@
         },
         {
           "code": "notes",
-          "title": "notes",
+          "title": "Notes",
           "type": "text",
           "defaultValue": "",
           "required": false
