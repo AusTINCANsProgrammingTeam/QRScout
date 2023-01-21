@@ -130,8 +130,8 @@
           "type": "select",
           "choices": {
             "none": "None",
-            "subP": "Substation Portal",
-            "subS": "Substation Slide",
+            "sub portal": "Substation Portal",
+            "sub slide": "Substation Slide",
             "both": "Both"            
           },
           "defaultValue": "none",
@@ -211,7 +211,7 @@
           "type": "select",
           "choices": {
             "none": "None",
-            "yel": "Yellow",
+            "yellow": "Yellow",
             "red": "Red"
           },
           "defaultValue": "none",
