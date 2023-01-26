@@ -58,7 +58,7 @@
       "fields": [
         {
           "code": "ahp",
-          "title": "High Pieces Scored",
+          "title": "Auton High Pieces Scored",
           "type": "counter",
           "defaultValue": 0,
           "min": 0,
@@ -66,7 +66,7 @@
         },
         {
           "code": "amp",
-          "title": "Mid Pieces Scored",
+          "title": "Auton Mid Pieces Scored",
           "type": "counter",
           "defaultValue": 0,
           "min": 0,
@@ -74,7 +74,7 @@
         },
         {
           "code": "afp",
-          "title": "Low Pieces Scored",
+          "title": "Auton Low Pieces Scored",
           "type": "counter",
           "defaultValue": 0,
           "min": 0,
@@ -146,7 +146,7 @@
         },
         {
           "code": "thp",
-          "title": "High Pieces Scored",
+          "title": "Teleop High Pieces Scored",
           "type": "counter",
           "defaultValue": 0,
           "min": 0,
@@ -154,7 +154,7 @@
         },
         {
           "code": "tmp",
-          "title": "Mid Pieces Scored",
+          "title": "Teleop Mid Pieces Scored",
           "type": "counter",
           "defaultValue": 0,
           "min": 0,
@@ -162,7 +162,7 @@
         },
         {
           "code": "tfp",
-          "title": "Low Pieces Scored",
+          "title": "Teleop Low Pieces Scored",
           "type": "counter",
           "defaultValue": 0,
           "min": 0,
