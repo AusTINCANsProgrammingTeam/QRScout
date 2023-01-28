@@ -186,7 +186,14 @@
           "type": "boolean",
           "defaultValue": false,
           "required": false
-        }
+        },
+        {
+          "code": "d",
+          "title": "Died/Disabled",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
+        },
       ]
     },
     {
@@ -202,13 +209,6 @@
             "red": "Red"
           },
           "defaultValue": "none",
-          "required": false
-        },
-        {
-          "code": "d",
-          "title": "Died/Disabled",
-          "type": "boolean",
-          "defaultValue": false,
           "required": false
         },
         {
