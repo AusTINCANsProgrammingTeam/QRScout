@@ -112,16 +112,10 @@
       "name": "Teleop",
       "fields": [
         {
-          "code": "scpu",
-          "title": "Pieces Scored on Mid/High",
-          "type": "select",
-          "choices": {
-            "none": "None",
-            "cones": "Cones",
-            "cubes": "Cubes",
-            "both": "Both"            
-          },
-          "defaultValue": "None",
+          "code": "to",
+          "title": "Tipped Over",
+          "type": "boolean",
+          "defaultValue": false,
           "required": false
         },
         {
@@ -132,10 +126,16 @@
           "required": false
         },
         {
-          "code": "to",
-          "title": "Tipped Over",
-          "type": "boolean",
-          "defaultValue": false,
+          "code": "scpu",
+          "title": "Pieces Scored on Mid/High",
+          "type": "select",
+          "choices": {
+            "none": "None",
+            "cones": "Cones",
+            "cubes": "Cubes",
+            "both": "Both"            
+          },
+          "defaultValue": "None",
           "required": false
         },
         {
