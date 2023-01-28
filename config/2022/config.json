@@ -138,8 +138,8 @@
           "required": false
         },
         {
-          "code": "fpu",
-          "title": "Picked Up Pieces From Floor",
+          "code": "to",
+          "title": "Tipped Over",
           "type": "boolean",
           "defaultValue": false,
           "required": false
@@ -189,13 +189,6 @@
         {
           "code": "bb",
           "title": "Used Its Buddy Balance",
-          "type": "boolean",
-          "defaultValue": false,
-          "required": false
-        },
-        {
-          "code": "to",
-          "title": "Tipped Over",
           "type": "boolean",
           "defaultValue": false,
           "required": false
