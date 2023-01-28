@@ -125,21 +125,15 @@
           "required": false
         },
         {
-          "code": "spu",
-          "title": "Substation Pick Up Positions",
-          "type": "select",
-          "choices": {
-            "none": "None",
-            "sub portal": "Substation Portal",
-            "sub slide": "Substation Slide",
-            "both": "Both"            
-          },
-          "defaultValue": "none",
+          "code": "to",
+          "title": "Tipped Over",
+          "type": "boolean",
+          "defaultValue": false,
           "required": false
         },
         {
-          "code": "to",
-          "title": "Tipped Over",
+          "code": "fpu",
+          "title": "Picked Up Pieces From Floor",
           "type": "boolean",
           "defaultValue": false,
           "required": false
