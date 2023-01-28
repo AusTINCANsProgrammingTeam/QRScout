@@ -125,15 +125,15 @@
           "required": false
         },
         {
-          "code": "to",
-          "title": "Tipped Over",
+          "code": "fpu",
+          "title": "Picked Up Pieces From Floor",
           "type": "boolean",
           "defaultValue": false,
           "required": false
         },
         {
-          "code": "fpu",
-          "title": "Picked Up Pieces From Floor",
+          "code": "to",
+          "title": "Tipped Over",
           "type": "boolean",
           "defaultValue": false,
           "required": false
