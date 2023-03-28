@@ -96,12 +96,13 @@
         },
         {
           "code": "ade",
-          "title": "Docked/Engaged",
+          "title": "Docked/Engaged/Fail",
           "type": "select",
           "choices": {
             "none": "None",
             "docked": "Docked",
-            "engaged": "Docked and Engaged"
+            "engaged": "Docked and Engaged",
+            "failed": "Failed"
           },
           "defaultValue": "none",
           "required": false
