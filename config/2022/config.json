@@ -96,7 +96,7 @@
         },
         {
           "code": "ade",
-          "title": "Docked/Engaged/Fail",
+          "title": "Docked/Engaged/Failed",
           "type": "select",
           "choices": {
             "none": "None",
