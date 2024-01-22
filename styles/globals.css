@@ -5,3 +5,12 @@
 body {
   overscroll-behavior: contain;
 }
+
+:root {
+   background-color: #fefefe;
+   filter: invert(100%);   
+}
+
+* {
+   background-color: inherit;
+}
