@@ -197,7 +197,7 @@
             "title": "High Note",
             "type": "select",
             "required": true,
-            "code": "harm",
+            "code": "highnote",
             "choices": {
               "Noo": "None",
               "hupl": "Human Player",
