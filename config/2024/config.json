@@ -126,7 +126,7 @@
             "choices": {
               "N": "None",
               "G": "Ground",
-              "MS": "Manually Set",
+              "S": "Source",
               "B": "Both"
             },
             "defaultValue": "None"
