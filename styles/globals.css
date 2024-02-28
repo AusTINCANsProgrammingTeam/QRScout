@@ -4,13 +4,24 @@
 
 body {
   overscroll-behavior: contain;
+  background-color: black;
+}
+.bg-white{
+  background-color: black;
 }
 
-:root {
-   background-color: #fefefe;
-   filter: invert(100%);   
+.bg-gray{
+  background-color: rgb(100, 100, 100);
 }
 
-* {
-   background-color: inherit;
+.text-xs {
+  color: yellow;
+}
+
+.text-2xl {
+  color: yellow;
+}
+
+.text{
+  color: yellow;
 }
