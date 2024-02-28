@@ -68,14 +68,6 @@
             "required": false
           },
           {
-            "code": "auampm",
-            "title": "Amp Missed",
-            "type": "counter",
-            "defaultValue": 0,
-            "min": 0,
-            "required": false
-          },
-          {
             "code": "ausc",
             "title": "Speaker Scored",
             "type": "counter",
@@ -119,24 +111,8 @@
             "required": false
           },
           {
-            "code": "tampm",
-            "title": "Amp Missed",
-            "type": "counter",
-            "defaultValue": 0,
-            "min": 0,
-            "required": false
-          },
-          {
             "code": "tsc",
             "title": "Speaker Scored",
-            "type": "counter",
-            "defaultValue": 0,
-            "min": 0,
-            "required": false
-          },
-          {
-            "code": "tsm",
-            "title": "Speaker Missed",
             "type": "counter",
             "defaultValue": 0,
             "min": 0,
