@@ -29,3 +29,7 @@ body {
 .bg-gray-300{
   background-color: rgb(100, 100, 100);
 }
+
+.text-gray-700{
+  color: yellow;
+}
