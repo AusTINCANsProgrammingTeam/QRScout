@@ -25,3 +25,7 @@ body {
 .text{
   color: yellow;
 }
+
+.bg-gray-300{
+  background-color: rgb(100, 100, 100);
+}
