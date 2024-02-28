@@ -31,5 +31,6 @@ body {
 }
 
 .text-gray-700{
-  color: yellow;
+  color: white;
+  background-color: black;
 }
