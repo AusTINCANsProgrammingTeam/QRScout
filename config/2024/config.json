@@ -11,13 +11,15 @@
             "title": "Scouter Initials",
             "type": "text",
             "required": true,
-            "code": "scouter"
+            "code": "scouter",
+            "defaultValue": " "
           },
           {
             "title": "Match Number",
             "type": "number",
             "required": true,
-            "code": "matchNumber"
+            "code": "matchNumber",
+            "defaultValue": "0"
           },
           {
             "title": "Robot",
@@ -38,7 +40,8 @@
             "title": "Team Number",
             "type": "number",
             "required": true,
-            "code": "teamNumber"
+            "code": "teamNumber",
+            "defaultValue": "0"
           },
           {
             "title": "Human Player at Amp",
@@ -221,7 +224,8 @@
             "type": "text",
             "min": 0,
             "max": 50,
-            "required": false
+            "required": false,
+            "defaultValue": " "
           }
         ]
       }
