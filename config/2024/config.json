@@ -12,7 +12,7 @@
             "type": "text",
             "required": true,
             "code": "scouter",
-            "defaultValue": " "
+            "defaultValue": ""
           },
           {
             "title": "Match Number",
@@ -225,7 +225,7 @@
             "min": 0,
             "max": 50,
             "required": false,
-            "defaultValue": " "
+            "defaultValue": ""
           }
         ]
       }
