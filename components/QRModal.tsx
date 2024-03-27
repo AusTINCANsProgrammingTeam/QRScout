@@ -17,7 +17,7 @@ export default function QRModal(props: QRModalProps) {
             className="fixed inset-0 h-full w-full overflow-y-auto bg-gray-600 bg-opacity-50"
             id="my-modal"
           />
-          <div className="fixed top-20 rounded-md border bg-white p-5 shadow-lg">
+          <div className="fixed top-20 rounded-md border bg-white-white p-5 shadow-lg">
             <div className="flex flex-col items-center">
               <h1 className="text-4xl">{props.title.toUpperCase()}</h1>
               <QRCode className="m-2 mt-4" size={256} value={props.data} />
