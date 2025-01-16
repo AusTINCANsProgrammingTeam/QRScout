@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overscroll-behavior: contain;
+  background-color: black;
+}
+.bg-white{
+  background-color: black;
+  color: white;
+}
+
+.bg-white-white{
+  background-color: white;
+}
+
+.bg-gray{
+  background-color: rgb(100, 100, 100);
+}
+
+.text-xs {
+  color: yellow;
+}
+
+.text-2xl {
+  color: yellow;
+}
+
+.text{
+  color: yellow;
+}
+
+.bg-gray-300{
+  background-color: rgb(100, 100, 100);
+}
+
+.text-gray-700{
+  color: white;
+  background-color: black;
+}
