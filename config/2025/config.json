@@ -171,6 +171,32 @@
               "Os": "Deep / High Cage"
             },
             "defaultValue": "No Climb"
+          },
+          {
+            "title": "Coral Pickup Location",
+            "type": "select",
+            "required": true,
+            "code": "Npl",
+            "choices": {
+              "N": "None",
+              "G": "Ground",
+              "S": "Source",
+              "B": "Both"
+            },
+            "defaultValue": "None"
+          },
+          {
+            "title": "Algae Score Location",
+            "type": "select",
+            "required": true,
+            "code": "Npl",
+            "choices": {
+              "X": "None",
+              "N": "Net",
+              "P": "Processor",
+              "B": "Both"
+            },
+            "defaultValue": "None"
           }
         ]
       },
@@ -206,30 +232,24 @@
             "required": false
           },
           {
-            "title": "Coral Pickup Location",
-            "type": "select",
-            "required": true,
-            "code": "Npl",
-            "choices": {
-              "N": "None",
-              "G": "Ground",
-              "S": "Source",
-              "B": "Both"
-            },
-            "defaultValue": "None"
+            "title": "Offense Skill",
+            "type": "range",
+            "required": false,
+            "code": "or",
+            "defaultValue": 5,
+            "min": 1,
+            "max": 10,
+            "step": 1
           },
           {
-            "title": "Algae Score Location",
-            "type": "select",
-            "required": true,
-            "code": "Npl",
-            "choices": {
-              "X": "None",
-              "N": "Net",
-              "P": "Processor",
-              "B": "Both"
-            },
-            "defaultValue": "None"
+            "title": "Defense Skill",
+            "type": "range",
+            "required": false,
+            "code": "dr",
+            "defaultValue": 5,
+            "min": 1,
+            "max": 10,
+            "step": 1
           },
           {
             "code": "co",
