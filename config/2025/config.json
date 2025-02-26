@@ -88,8 +88,16 @@
             "required": false
           },
           {
-            "code": "aualg",
-            "title": "Algae Scored",
+            "code": "aualgp",
+            "title": "Algae Scored Processor",
+            "type": "counter",
+            "defaultValue": 0,
+            "min": 0,
+            "required": false
+          },
+          {
+            "code": "aualgn",
+            "title": "Algae Scored Net",
             "type": "counter",
             "defaultValue": 0,
             "min": 0,
@@ -147,8 +155,16 @@
                 "required": false
               },
               {
-                "code": "aualg",
-                "title": "Algae Scored",
+                "code": "aualgp",
+                "title": "Algae Scored Processor",
+                "type": "counter",
+                "defaultValue": 0,
+                "min": 0,
+                "required": false
+              },
+              {
+                "code": "aualgn",
+                "title": "Algae Scored Net",
                 "type": "counter",
                 "defaultValue": 0,
                 "min": 0,
@@ -186,14 +202,14 @@
             "defaultValue": "None"
           },
           {
-            "title": "Algae Score Location",
+            "title": "Algae Pickup Location",
             "type": "select",
             "required": true,
             "code": "Npl",
             "choices": {
               "X": "None",
-              "N": "Net",
-              "P": "Processor",
+              "G": "Ground",
+              "R": "Reef",
               "B": "Both"
             },
             "defaultValue": "None"
