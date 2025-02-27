@@ -205,7 +205,7 @@
             "title": "Algae Pickup Location",
             "type": "select",
             "required": true,
-            "code": "Npl",
+            "code": "Np2",
             "choices": {
               "X": "None",
               "G": "Ground",
