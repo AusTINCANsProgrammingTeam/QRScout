@@ -123,7 +123,7 @@
         "name": "Teleop",
         "fields": [
             {
-                "code": "aucor1",
+                "code": "tcor1",
                 "title": "L1 Coral Scored",
                 "type": "counter",
                 "defaultValue": 0,
@@ -131,7 +131,7 @@
                 "required": false
               },
               {
-                "code": "aucor2",
+                "code": "tcor2",
                 "title": "L2 Coral Scored",
                 "type": "counter",
                 "defaultValue": 0,
@@ -139,7 +139,7 @@
                 "required": false
               },
               {
-                "code": "aucor3",
+                "code": "tcor3",
                 "title": "L3 Coral Scored",
                 "type": "counter",
                 "defaultValue": 0,
@@ -147,7 +147,14 @@
                 "required": false
               },
               {
-                "code": "aucor4",
+                "code": "tcor4",
+                "title": "L4 Coral Scored",
+                "type": "counter",
+                "defaultValue": 0,
+                "min": 0,
+                "required": false
+              },{
+                "code": "tatcor4",
                 "title": "L4 Coral Scored",
                 "type": "counter",
                 "defaultValue": 0,
@@ -155,7 +162,7 @@
                 "required": false
               },
               {
-                "code": "aualgp",
+                "code": "talgp",
                 "title": "Algae Scored Processor",
                 "type": "counter",
                 "defaultValue": 0,
@@ -163,7 +170,7 @@
                 "required": false
               },
               {
-                "code": "aualgn",
+                "code": "talgn",
                 "title": "Algae Scored Net",
                 "type": "counter",
                 "defaultValue": 0,
